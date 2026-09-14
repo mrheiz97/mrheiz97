@@ -1,692 +1,314 @@
-<!-- ========================================================= -->
-
-<!--                    STUMPFWORKS PROFILE                     -->
-
-<!-- ========================================================= -->
-
 <div align="center">
 
-# `STUMPFWORKS_`
+# StumpfWorks
 
-### SOFTWARE × INFRASTRUCTURE × HARDWARE
+### Open software. Your infrastructure. Your control.
 
-**Open Source · Self-Hosted · Security by Design**
-
-<br>
-
-> ### `BUILD IT. UNDERSTAND IT. OWN IT.`
+Building self-hosted software, infrastructure and connected hardware.
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GITHUB-TheRealHZL-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/TheRealHZL)
-[![StumpfWorks](https://img.shields.io/badge/STUMPFWORKS-ECOSYSTEM-0969DA?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Stumpf-works)
-[![Discord](https://img.shields.io/badge/DISCORD-CONNECT-5865F2?style=for-the-badge\&logo=discord\&logoColor=white)](https://discord.gg/rv2h8FrD)
+[![StumpfWorks](https://img.shields.io/badge/StumpfWorks-Open_Source-0969DA?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Stumpf-works)
+[![GitHub](https://img.shields.io/badge/@TheRealHZL-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/TheRealHZL)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge\&logo=discord\&logoColor=white)](https://discord.gg/rv2h8FrD)
 
 <br>
 
-```text
-╔══════════════════════════════════════════════════════╗
-║              STUMPFWORKS SYSTEM STATUS              ║
-╠══════════════════════════════════════════════════════╣
-║                                                      ║
-║   SW.ID       ● ONLINE       Identity                ║
-║   SW.ACCESS   ● BUILDING     Access Control          ║
-║   SW.FW       ● BUILDING     Framework               ║
-║   SW.A        ○ QUEUED       Archive                 ║
-║   RETTCONNECT ○ FUTURE       Medical Technology      ║
-║   SW.LABS     ● RUNNING      Experiments             ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-```
+**Software** · **Infrastructure** · **Identity** · **Security** · **Embedded**
 
 </div>
 
 ---
 
-# `> WHOAMI`
+## 👋 About
 
-```yaml
-user: MrHeiz97
-github: TheRealHZL
-home: StumpfWorks
+I'm **MrHeiz97**, the developer behind StumpfWorks.
 
-roles:
-  - developer
-  - builder
-  - tinkerer
-  - self-hoster
+I enjoy building systems where software, infrastructure and hardware come together — from Go services and authentication systems to self-hosted infrastructure and microcontrollers.
 
-building:
-  - backend systems
-  - self-hosted applications
-  - identity & access systems
-  - developer infrastructure
-  - embedded systems
-  - automation
+StumpfWorks is where these projects live.
 
-interested_in:
-  - Go
-  - application architecture
-  - security
-  - Linux
-  - networking
-  - embedded hardware
-  - protocols
-```
+The idea behind it is simple:
 
-I like building things from the ground up.
+> ### Build software you can understand, operate and own.
 
-Not just the frontend.
-
-Not just the API.
-
-I want to understand what happens **underneath it**.
-
-```text
-USER
- │
- ▼
-APPLICATION
- │
- ▼
-API
- │
- ▼
-IDENTITY ──────► SECURITY
- │
- ▼
-INFRASTRUCTURE
- │
- ▼
-PROTOCOL
- │
- ▼
-EMBEDDED CONTROLLER
- │
- ▼
-HARDWARE
-```
-
-That's where **StumpfWorks** comes from.
+No mandatory cloud.
+No unnecessary dependencies on external services.
+No black box where there doesn't need to be one.
 
 ---
 
-# `01 // STUMPFWORKS`
+## ◈ The StumpfWorks Ecosystem
 
-StumpfWorks is my growing **open-source technology ecosystem**.
+StumpfWorks isn't a single application.
 
-It isn't supposed to be a single application.
+It's a growing family of independent open-source projects built around shared ideas and, increasingly, shared foundations.
 
-It's a collection of software, infrastructure, tools, protocols and hardware projects built around a common philosophy.
-
-<div align="center">
-
-### `OPEN SOURCE`
-
-### `SELF-HOSTED`
-
-### `MODULAR`
-
-### `SECURITY BY DESIGN`
-
-### `NO MANDATORY CLOUD`
-
-</div>
-
-The goal is simple:
-
-> **Build systems you can run, inspect, modify and actually own.**
+|     | Project         | Purpose                         |    Status   |
+| :-: | --------------- | ------------------------------- | :---------: |
+|  🔐 | **SW.ID**       | Identity & Authentication       |  🟢 Active  |
+|  🚪 | **SW.ACCESS**   | Physical Access Control         |  🟢 Active  |
+|  🧩 | **SW.FW**       | Shared Application Framework    | 🟡 Building |
+|  📦 | **SW.A**        | Archive & Container Format      |  ⚪ Planned  |
+|  🚑 | **RettConnect** | Medical & Emergency Software    |   ⚪ Future  |
+|  🧪 | **SW.LABS**     | Hardware & Software Experiments |  🔵 Ongoing |
 
 ---
 
-## `STUMPFWORKS://ARCHITECTURE`
-
-```text
-                         ┌──────────────────────┐
-                         │     STUMPFWORKS_     │
-                         └──────────┬───────────┘
-                                    │
-             ┌──────────────────────┼──────────────────────┐
-             │                      │                      │
-             ▼                      ▼                      ▼
-      ┌─────────────┐        ┌─────────────┐        ┌─────────────┐
-      │  SOFTWARE   │        │    CORE     │        │  HARDWARE   │
-      └──────┬──────┘        └──────┬──────┘        └──────┬──────┘
-             │                      │                      │
-         Web Apps                 SW.ID                 ESP8266
-         Services                SW.FW                  ESP32
-         APIs                    Security               Raspberry Pi
-         Tools                   Updates                RFID / NFC
-             │                      │                      │
-             └──────────────────────┼──────────────────────┘
-                                    │
-                                    ▼
-                           ┌─────────────────┐
-                           │ INFRASTRUCTURE  │
-                           └────────┬────────┘
-                                    │
-                              Linux / Docker
-                              Networking
-                              Monitoring
-                              Automation
-```
-
----
-
-# `02 // CORE SYSTEMS`
-
-## 🔐 `SW.ID`
+## 🔐 SW.ID
 
 ### StumpfWorks Identity
 
-```text
-┌─ SYSTEM INFORMATION ─────────────────────────┐
-│ ID        SW.ID                              │
-│ TYPE      Identity & Authentication          │
-│ ROLE      Core Service                       │
-│ STATE     ● ACTIVE                           │
-└──────────────────────────────────────────────┘
-```
+**Identity is where the ecosystem starts.**
 
-`SW.ID` is the identity layer of the StumpfWorks ecosystem.
+SW.ID provides identity and authentication services for StumpfWorks applications and clients.
 
-It provides a common foundation for applications and devices that need to know:
+`Authentication` · `Users` · `Devices` · `Clients` · `Authorization` · `Audit`
 
-**Who are you?**
-
-**What are you allowed to do?**
-
-**Which device is connecting?**
-
-**Can this application be trusted?**
-
-```text
-                  ┌─────────────┐
-                  │    SW.ID    │
-                  └──────┬──────┘
-                         │
-        ┌────────────────┼────────────────┐
-        │                │                │
-        ▼                ▼                ▼
-      USERS           DEVICES          CLIENTS
-        │                │                │
-        └────────────────┼────────────────┘
-                         │
-                         ▼
-                 AUTHENTICATION
-                         │
-                         ▼
-                  AUTHORIZATION
-                         │
-              ┌──────────┴──────────┐
-              ▼                     ▼
-           SOFTWARE              HARDWARE
-```
-
-### `CAPABILITIES`
-
-`AUTHENTICATION`
-`USER MANAGEMENT`
-`DEVICE MANAGEMENT`
-`CLIENT REGISTRATION`
-`ACCESS CONTROL`
-`SIGNED UPDATES`
-`AUDIT LOGGING`
-`PRIVACY-SAFE DIAGNOSTICS`
+It is designed around secure application integration while remaining completely self-hosted.
 
 ---
 
-## 🚪 `SW.ACCESS`
+## 🚪 SW.ACCESS
 
 ### StumpfWorks Access
 
-```text
-┌─ SYSTEM INFORMATION ─────────────────────────┐
-│ ID        SW.ACCESS                          │
-│ TYPE      Physical Access Control            │
-│ BRIDGE    Software ↔ Hardware                │
-│ STATE     ● ACTIVE DEVELOPMENT               │
-└──────────────────────────────────────────────┘
-```
+**Where software meets the real world.**
 
-`SW.ACCESS` connects the digital StumpfWorks world with the physical one.
+SW.ACCESS connects identity and authentication with physical access control.
 
-Authentication shouldn't have to stop at a website.
+It combines a self-hosted server with embedded hardware nodes to control things such as gates and doors.
 
-```text
-                        USER
-                          │
-                    ┌─────▼─────┐
-                    │   SW.ID   │
-                    └─────┬─────┘
-                          │
-                    AUTHENTICATED
-                          │
-                  ┌───────▼───────┐
-                  │   SW.ACCESS   │
-                  └───────┬───────┘
-                          │
-              ┌───────────┴───────────┐
-              │                       │
-              ▼                       ▼
-          WEB / API               EDGE NODE
-                                      │
-                         ┌────────────┼────────────┐
-                         │            │            │
-                         ▼            ▼            ▼
-                       RFID          PIN        PASSKEY
-                         │            │            │
-                         └────────────┼────────────┘
-                                      │
-                                      ▼
-                                OUTPUT CONTROL
-                                      │
-                                ┌─────┴─────┐
-                                ▼           ▼
-                              GATE         DOOR
-```
+**Software**
 
-### `DESIGN GOAL`
+`Web Administration` · `API` · `Identity Integration` · `Audit`
 
-```text
-NO REQUIRED CLOUD
-       +
-LOCAL HARDWARE
-       +
-SELF-HOSTED SERVER
-       +
-STRONG IDENTITY
-       =
-SW.ACCESS
-```
+**Authentication**
+
+`PIN` · `RFID / NFC` · `Passkeys`
+
+**Hardware**
+
+`ESP8266` · `ESP32` · `Relays` · `Readers` · `Sensors`
+
+The infrastructure belongs to the person operating it.
 
 ---
 
-# `03 // SHARED FOUNDATION`
-
-## 🧩 `SW.FW`
+## 🧩 SW.FW
 
 ### StumpfWorks Framework
 
-```text
-┌─ SYSTEM INFORMATION ─────────────────────────┐
-│ ID        SW.FW                              │
-│ TYPE      Application Framework              │
-│ ROLE      Shared Foundation                  │
-│ STATE     ● IN DEVELOPMENT                   │
-└──────────────────────────────────────────────┘
-```
+One shared foundation for future StumpfWorks applications.
 
-Building multiple applications shouldn't mean rebuilding the same foundation every time.
+Rather than implementing the same fundamentals for every new project, SW.FW is intended to provide reusable components for:
 
-Without a shared foundation:
+`Application Core`
 
-```text
-PROJECT A ─► AUTH + CONFIG + LOGGING + SECURITY + API
-PROJECT B ─► AUTH + CONFIG + LOGGING + SECURITY + API
-PROJECT C ─► AUTH + CONFIG + LOGGING + SECURITY + API
-```
+`Authentication & Authorization`
 
-With `SW.FW`:
+`Configuration`
 
-```text
-                        ┌─────────────┐
-                        │    SW.FW    │
-                        ├─────────────┤
-                        │ APP CORE    │
-                        │ AUTH        │
-                        │ RBAC        │
-                        │ CONFIG      │
-                        │ DATABASE    │
-                        │ LOGGING     │
-                        │ AUDIT       │
-                        │ SECURITY    │
-                        │ EVENTS      │
-                        │ API         │
-                        │ UPDATES     │
-                        │ TELEMETRY   │
-                        └──────┬──────┘
-                               │
-               ┌───────────────┼───────────────┐
-               ▼               ▼               ▼
-          PROJECT A        PROJECT B       PROJECT C
-```
+`Database`
 
-> **Build the foundation once. Build the interesting part next.**
+`Logging & Audit`
+
+`Security`
+
+`APIs & Events`
+
+`Updates`
+
+`Observability`
+
+This lets future projects focus on what actually makes them unique.
+
+> **Build the foundation once. Improve it everywhere.**
 
 ---
 
-# `04 // NEXT IN QUEUE`
-
-## 📦 `SW.A`
+## 📦 SW.A
 
 ### StumpfWorks Archive
 
-```text
-┌─ SYSTEM INFORMATION ─────────────────────────┐
-│ ID        SW.A                               │
-│ NAME      StumpfWorks Archive                │
-│ FORMAT    SWA                                │
-│ FILE      *.swa                              │
-│ TYPE      Archive / Container Format         │
-│ STATE     ○ QUEUED                           │
-└──────────────────────────────────────────────┘
-```
+**Project:** `SW.A`
+**Format:** `SWA`
+**Extension:** `.swa`
 
-`SW.A` asks a simple question:
+SW.A is the upcoming StumpfWorks archive project.
 
-> **What if StumpfWorks had its own archive format?**
+The goal is to design an actual documented and versioned archive/container format — not simply put a new extension on an existing ZIP file.
 
-Not just a renamed ZIP.
+Planned components include:
 
-A documented, versioned format with its own specification and reference implementation.
+`SWA Format Specification`
 
-```text
-                        EXAMPLE.SWA
+`Go Reference Library`
 
-┌────────────────────────────────────────────────────┐
-│ SWA HEADER                                         │
-│ magic · format version · flags                     │
-├────────────────────────────────────────────────────┤
-│ METADATA                                           │
-│ archive information · timestamps · attributes      │
-├────────────────────────────────────────────────────┤
-│ FILE TABLE                                         │
-│ paths · sizes · offsets · properties               │
-├────────────────────────────────────────────────────┤
-│                                                    │
-│                 COMPRESSED DATA                    │
-│                                                    │
-├────────────────────────────────────────────────────┤
-│ INTEGRITY                                          │
-│ hashes · validation                                │
-└────────────────────────────────────────────────────┘
-```
+`Command Line Interface`
 
-### `SW.A://ROADMAP`
+`Pack / Unpack`
+
+`Zstandard Compression`
+
+`Metadata`
+
+`Integrity Verification`
+
+`Optional Encryption`
+
+### The basic idea
 
 ```text
-SWA FORMAT SPECIFICATION v1
-            │
-            ▼
-GO REFERENCE LIBRARY
-            │
-            ▼
-SWA CLI
-            │
-            ▼
-PACK / UNPACK
-            │
-            ▼
-ZSTD COMPRESSION
-            │
-            ▼
-INTEGRITY VERIFICATION
-            │
-            ▼
-OPTIONAL ENCRYPTION
+example.swa
+    │
+    ├── Header
+    ├── Metadata
+    ├── File Index
+    ├── Compressed Data
+    └── Integrity Information
 ```
 
-`PROJECT = SW.A`
-
-`FORMAT = SWA`
-
-`EXTENSION = .swa`
+SW.A will be developed after the current StumpfWorks foundation work.
 
 ---
 
-# `05 // FUTURE`
+## 🚑 RettConnect
 
-## 🚑 `RETTCONNECT`
+### A future StumpfWorks project
 
-### A StumpfWorks Project
+RettConnect is focused on software for **medical, emergency and event medical environments**.
 
-```text
-┌─ PROJECT INFORMATION ────────────────────────┐
-│ PROJECT   RettConnect                        │
-│ PARENT    StumpfWorks                        │
-│ DOMAIN    Medical & Emergency Technology     │
-│ STATE     ○ FUTURE                           │
-└──────────────────────────────────────────────┘
-```
+Possible areas include patient documentation, operational workflows, teams, vehicles, equipment, checklists and reporting.
 
-RettConnect is a future StumpfWorks project focused on digital tools for medical and emergency environments.
+Unlike a simple experimental application, RettConnect may eventually handle particularly sensitive information.
 
-```text
-                         RETTCONNECT
-                              │
-           ┌──────────────────┼──────────────────┐
-           │                  │                  │
-           ▼                  ▼                  ▼
-        PATIENT            OPERATIONS         RESOURCES
-           │                  │                  │
-     Documentation        Coordination        Vehicles
-     Medical Records      Medical Teams       Equipment
-     Workflows            Deployments         Inventory
-           │                  │                  │
-           └──────────────────┼──────────────────┘
-                              │
-                              ▼
-                          REPORTING
-```
+For that reason, there is no reason to rush it.
 
-Potential areas include:
-
-`PATIENT DOCUMENTATION`
-
-`EVENT MEDICAL SERVICES`
-
-`CHECKLISTS`
-
-`TEAM COORDINATION`
-
-`VEHICLES`
-
-`EQUIPMENT`
-
-`OPERATIONAL WORKFLOWS`
-
-`REPORTING`
-
-RettConnect isn't being rushed.
-
-Before building a system that may eventually deal with sensitive medical information, the underlying architecture should be ready for it.
-
-That's one reason `SW.FW`, security and the rest of the StumpfWorks foundation come first.
+The plan is to first build a mature StumpfWorks foundation and later develop RettConnect properly on top of it.
 
 ---
 
-# `06 // LABS`
+## 🧪 SW.LABS
 
-## 🧪 `SW.LABS`
+### Ideas don't always need a roadmap.
 
-```bash
-$ tree ~/stumpfworks/labs
+SW.LABS represents the experimental side of StumpfWorks.
 
-labs/
-├── embedded/
-│   ├── esp8266/
-│   ├── esp32/
-│   └── raspberry-pi/
-│
-├── hardware/
-│   ├── rfid-nfc/
-│   ├── sensors/
-│   ├── relays/
-│   └── controllers/
-│
-├── infrastructure/
-│   ├── linux/
-│   ├── networking/
-│   ├── monitoring/
-│   └── automation/
-│
-├── protocols/
-│   └── experiments/
-│
-└── ideas/
-    └── definitely-too-many/
-```
-
-Not everything needs a product name.
-
-Sometimes I just want to connect a sensor.
-
-Or control a relay.
-
-Or build a protocol.
-
-Or find out whether an idea that probably shouldn't work...
-
-**works.**
-
-Some experiments disappear.
-
-Some become useful tools.
-
-Some eventually become the next:
-
-`SW.*`
-
----
-
-# `07 // TOOLCHAIN`
+This is where software meets breadboards, sensors, networks and occasionally questionable amounts of wiring.
 
 <div align="center">
 
-### `LANGUAGES`
+`ESP8266`　`ESP32`　`Raspberry Pi`　`RFID / NFC`
 
-![Go](https://img.shields.io/badge/GO-00ADD8?style=for-the-badge\&logo=go\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Bash](https://img.shields.io/badge/BASH-4EAA25?style=for-the-badge\&logo=gnubash\&logoColor=white)
+`Sensors`　`Automation`　`Networking`　`Linux`
 
-<br>
+`Self-Hosting`　`Protocols`　`Monitoring`　`3D Printing`
 
-### `APPLICATION`
+</div>
 
-![React](https://img.shields.io/badge/REACT-20232A?style=for-the-badge\&logo=react\&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge\&logo=nextdotjs\&logoColor=white)
-![Node.js](https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge\&logo=nodedotjs\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
+Some experiments stay experiments.
 
-<br>
+Some solve a problem.
 
-### `INFRASTRUCTURE`
+And some become the next StumpfWorks project.
 
-![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Linux](https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![Proxmox](https://img.shields.io/badge/PROXMOX-E57000?style=for-the-badge\&logo=proxmox\&logoColor=white)
+---
 
-<br>
+## ⚙️ Built With
 
-### `HARDWARE`
+<div align="center">
 
-![Raspberry Pi](https://img.shields.io/badge/RASPBERRY_PI-A22846?style=for-the-badge\&logo=raspberrypi\&logoColor=white)
-![Arduino](https://img.shields.io/badge/ARDUINO-00878F?style=for-the-badge\&logo=arduino\&logoColor=white)
-![ESP8266](https://img.shields.io/badge/ESP8266-111111?style=for-the-badge)
-![ESP32](https://img.shields.io/badge/ESP32-111111?style=for-the-badge)
+### Development
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square\&logo=go\&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square\&logo=gnubash\&logoColor=white)
+
+### Web & Data
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square\&logo=react\&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square\&logo=nextdotjs\&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square\&logo=nodedotjs\&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
+
+### Infrastructure
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square\&logo=proxmox\&logoColor=white)
+
+### Embedded
+
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=flat-square\&logo=raspberrypi\&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square\&logo=arduino\&logoColor=white)
+![ESP8266](https://img.shields.io/badge/ESP8266-333333?style=flat-square)
+![ESP32](https://img.shields.io/badge/ESP32-333333?style=flat-square)
 
 </div>
 
 ---
 
-# `08 // GITHUB TELEMETRY`
+## 📊 Development
 
 <div align="center">
 
-```text
-ACTIVITY // PUBLIC REPOSITORIES // LANGUAGE DISTRIBUTION
-```
+![Profile Stats](https://github-readme-stats.vercel.app/api?username=TheRealHZL\&show_icons=true\&theme=transparent\&hide_border=true\&include_all_commits=true\&count_private=true)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=TheRealHZL\&theme=tokyonight\&hide_border=true\&border_radius=10)](https://git.io/streak-stats)
-
-<br>
-
-![Profile Stats](https://github-readme-stats.vercel.app/api?username=TheRealHZL\&show_icons=true\&theme=tokyonight\&hide_border=true\&border_radius=10\&include_all_commits=true\&count_private=true)
-
-<br>
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheRealHZL\&layout=compact\&theme=tokyonight\&hide_border=true\&border_radius=10)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheRealHZL\&layout=compact\&theme=transparent\&hide_border=true)
 
 </div>
 
 ---
 
-# `09 // CURRENT ROUTE`
+## 🛣️ Where StumpfWorks is going
 
-```text
-                              NOW
-                               │
-             ┌─────────────────┼─────────────────┐
-             │                 │                 │
-             ▼                 ▼                 ▼
-           SW.ID           SW.ACCESS           SW.FW
-             │                 │                 │
-             └─────────────────┼─────────────────┘
-                               │
-                               ▼
-                       COMMON FOUNDATION
-                               │
-                               ▼
-                             SW.A
-                               │
-                               ▼
-                    MORE STUMPFWORKS SYSTEMS
-                               │
-                               ▼
-                         RETTCONNECT
-```
+The current work is focused on establishing the core ecosystem:
 
-There isn't a finish line for StumpfWorks.
+**SW.ID + SW.ACCESS + SW.FW**
 
-There is always another layer to understand.
+↓
 
-Another system to build.
+**Shared StumpfWorks Foundation**
 
-Another protocol to experiment with.
+↓
 
-Another piece of hardware to connect.
+**SW.A**
+
+↓
+
+**New StumpfWorks Projects**
+
+↓
+
+**RettConnect**
+
+The individual projects will change and evolve.
+
+The principles behind them shouldn't.
 
 ---
 
-# `10 // PHILOSOPHY`
-
-```text
-╔══════════════════════════════════════════════════════╗
-║                                                      ║
-║                     BUILD IT.                        ║
-║                                                      ║
-║                  UNDERSTAND IT.                      ║
-║                                                      ║
-║                      OWN IT.                         ║
-║                                                      ║
-╚══════════════════════════════════════════════════════╝
-```
-
 <div align="center">
 
-### `STUMPFWORKS_`
+<br>
 
-**OPEN SOURCE / SELF-HOSTED / BUILT FROM THE GROUND UP**
+## Build it. Understand it. Own it.
+
+**StumpfWorks**
+
+*Open-source software built to run on your infrastructure.*
 
 <br>
 
-`SOFTWARE` × `INFRASTRUCTURE` × `HARDWARE`
-
-<br><br>
-
-[![GitHub](https://img.shields.io/badge/GITHUB-TheRealHZL-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/TheRealHZL)
-[![StumpfWorks](https://img.shields.io/badge/STUMPFWORKS-ORGANIZATION-0969DA?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/Stumpf-works)
-[![Discord](https://img.shields.io/badge/DISCORD-CONNECT-5865F2?style=for-the-badge\&logo=discord\&logoColor=white)](https://discord.gg/rv2h8FrD)
-
-<br><br>
-
-<sub>Designed, built and occasionally over-engineered by MrHeiz97.</sub>
+[![GitHub](https://img.shields.io/badge/GitHub-TheRealHZL-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/TheRealHZL)
+[![StumpfWorks](https://img.shields.io/badge/GitHub-StumpfWorks-0969DA?style=flat-square\&logo=github\&logoColor=white)](https://github.com/Stumpf-works)
+[![Discord](https://img.shields.io/badge/Discord-Connect-5865F2?style=flat-square\&logo=discord\&logoColor=white)](https://discord.gg/rv2h8FrD)
 
 <br>
 
-<sub>`STUMPFWORKS SYSTEM // END OF FILE`</sub>
+<sub>Built by MrHeiz97.</sub>
 
 </div>
