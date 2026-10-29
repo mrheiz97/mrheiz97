@@ -255,9 +255,9 @@ And some become the next StumpfWorks project.
 
 <div align="center">
 
-![Profile Stats](https://github-readme-stats.vercel.app/api?username=TheRealHZL\&show_icons=true\&theme=transparent\&hide_border=true\&include_all_commits=true\&count_private=true)
+![Profile Stats](https://github-readme-stats.vercel.app/api?username=mrheiz97\&show_icons=true\&theme=transparent\&hide_border=true\&include_all_commits=true\&count_private=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheRealHZL\&layout=compact\&theme=transparent\&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mrheiz97\&layout=compact\&theme=transparent\&hide_border=true)
 
 </div>
 
@@ -303,7 +303,7 @@ The principles behind them shouldn't.
 
 <br>
 
-[![GitHub](https://img.shields.io/badge/GitHub-TheRealHZL-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/TheRealHZL)
+[![GitHub](https://img.shields.io/badge/GitHub-mrheiz97-181717?style=flat-square\&logo=github\&logoColor=white)](https://github.com/TheRealHZL)
 [![StumpfWorks](https://img.shields.io/badge/GitHub-StumpfWorks-0969DA?style=flat-square\&logo=github\&logoColor=white)](https://github.com/Stumpf-works)
 [![Discord](https://img.shields.io/badge/Discord-Connect-5865F2?style=flat-square\&logo=discord\&logoColor=white)](https://discord.gg/rv2h8FrD)
 
