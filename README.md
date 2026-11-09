@@ -115,15 +115,17 @@ Exploring embedded hardware, networking, monitoring and new software concepts.
 
 ---
 
+
 ## 📊 GitHub Activity
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TheRealHZL&show_icons=true&theme=transparent&hide_border=true)
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=mrheiz97&show_icons=true&theme=transparent&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TheRealHZL&layout=compact&theme=transparent&hide_border=true)
+![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=mrheiz97&layout=compact&theme=transparent&hide_border=true)
 
 </div>
+
 
 ---
 
